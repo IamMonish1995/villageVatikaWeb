@@ -1,0 +1,28 @@
+Changes on Homepage
+1- top navigation 
+    -home
+    -about
+    -menus
+    -events
+    -table
+    -contact
+2-on menu section add on more item (tbd)
+3-on client review section  
+    divide into two columns
+        - review
+        - image caraousel 
+4-comment in the press section or replace with total customer counter
+5- above footer add google map 
+
+changes on other pages
+table page 
+    - to be connected with google sheet
+
+gallary page there will be categories to display photos of different events
+
+
+pages to be add 
+-about
+-events-galary
+-table
+-contact
