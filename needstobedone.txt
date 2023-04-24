@@ -11,8 +11,8 @@ Changes on Homepage
     divide into two columns
         - review
         - image caraousel 
-4-comment in the press section or replace with total customer counter
-5- above footer add google map 
+4-comment in the press section or replace with total customer counter --------------------Done
+5- above footer add google map  ----------------------------------------------------------Done
 
 changes on other pages
 table page 
