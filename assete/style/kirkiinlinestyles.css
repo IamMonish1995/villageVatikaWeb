@@ -1,0 +1,5186 @@
+      .stickytop #header,
+      #header.stickytop,
+      header.stuck.transparent-header #header-regular,
+      header.stuck.transparent-header #header-responsive {
+        -webkit-box-shadow: 0 0 24px rgba(10, 10, 20, 0.06);
+        -moz-box-shadow: 0 0 24px rgba(10, 10, 20, 0.06);
+        box-shadow: 0 0 24px rgba(10, 10, 20, 0.06);
+      }
+
+      .footer-logo img {
+        max-height: 20px;
+      }
+
+      .blog .post-list .tnail,
+      .archive .post-list .tnail {
+        flex-basis: 60%;
+      }
+
+      .category-header.overlay {
+        min-height: 600px;
+      }
+
+      .entry-header.overlay {
+        min-height: 600px;
+      }
+
+      body,
+      input,
+      .search-field,
+      cite.fn,
+      .footer-info-wrap,
+      .topbar-text-wrap,
+      .block-editor-block-list__layout {
+        font-size: 15px;
+        letter-spacing: 0.6px;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      .post-title-small,
+      .dropcap,
+      .content-box-wysiwyg.heading,
+      .wp-block-cover-image-text {
+        letter-spacing: 0px;
+        text-transform: none;
+      }
+
+      .page-title {
+        font-size: 3.2em;
+      }
+
+      h4 {
+        font-size: 1.6em;
+      }
+
+      h5 {
+        font-size: 1.34em;
+      }
+
+      h6 {
+        font-size: 1.16em;
+      }
+
+      label {
+        font-size: 0.8em;
+        font-weight: 500;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+
+      .woocommerce-checkout label,
+      .woocommerce-account label {
+        font-size: 12px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 400;
+      }
+
+      input[type="color"],
+      input[type="date"],
+      input[type="datetime"],
+      input[type="datetime-local"],
+      input[type="email"],
+      input[type="month"],
+      input[type="number"],
+      input[type="password"],
+      input[type="search"],
+      input[type="tel"],
+      input[type="text"],
+      input[type="time"],
+      input[type="url"],
+      input[type="week"],
+      input:not([type]),
+      select,
+      select option,
+      .woocommerce-checkout
+        .form-row
+        span.select2-selection.select2-selection--single,
+      textarea {
+        font-weight: 300;
+        font-size: 15px;
+      }
+
+      button,
+      .button,
+      .button-outline,
+      .menu-tabs .menu-tab-button,
+      input[type="button"],
+      input[type="reset"],
+      input[type="submit"],
+      .wp-block-button .wp-block-button__link,
+      .added_to_cart {
+        font-weight: 500;
+        font-size: 0.9em;
+        letter-spacing: 2px;
+      }
+
+      .subtitle-above {
+        font-weight: 500;
+        font-size: 0.9em;
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+      }
+
+      .vertical-text {
+        font-weight: 500;
+        font-size: 0.9em;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+      }
+
+      .wp-caption-text,
+      .wp-block-image figcaption,
+      .wp-block-audio figcaption,
+      .wp-block-video figcaption,
+      .wp-block-embed figcaption,
+      figcaption.blocks-gallery-caption,
+      .caption,
+      .mfp-title {
+        font-weight: 500;
+        font-size: 0.8em;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+      }
+
+      .woocommerce h1.page-title,
+      .woocommerce-page h1.page-title,
+      .woocommerce-cart h1.page-title,
+      .woocommerce-checkout h1.page-title {
+        font-weight: 600 !important;
+        font-size: 2.618em;
+        letter-spacing: 0px;
+      }
+
+      .woocommerce .product h3,
+      .woocommerce .product h2.woocommerce-loop-product__title,
+      .woocommerce h2.woocommerce-loop-category__title,
+      .wc-block-grid__product-title {
+        font-size: 0.8em !important;
+        letter-spacing: 2.2px !important;
+        text-transform: uppercase !important;
+      }
+
+      .woocommerce.single-product .entry-summary h1.product_title,
+      .product-title-use-headline-font .wc-block-grid__product-title,
+      .product-title-use-body-font .wc-block-grid__product-title {
+        font-weight: 400;
+      }
+
+      .woocommerce.single-product .entry-summary h1.product_title {
+        font-size: 1.8em;
+        text-transform: uppercase;
+      }
+
+      .woocommerce .price,
+      .wc-block-grid__product-price,
+      .wc-block-grid__product-price__value {
+        font-size: 0.8em;
+      }
+
+      .woocommerce .entry-summary .price {
+        font-size: 1.2em;
+      }
+
+      .entry-title,
+      h2.entry-title {
+        font-size: 1.5em;
+        line-height: 1.2em;
+        text-transform: none;
+      }
+
+      .single .entry-title {
+        font-size: 4.4em;
+        line-height: 1.2em;
+      }
+
+      .post-title-small,
+      .wpp-post-title {
+        font-size: 1.2em;
+        line-height: 1.4em;
+      }
+
+      .categories a {
+        letter-spacing: 4px;
+        text-transform: uppercase;
+      }
+
+      .entry-meta,
+      .post-info,
+      .post-info-small .post-info a {
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+
+      #reply-title,
+      .comments-title,
+      .section-title,
+      .post-nav-top-text {
+        font-weight: 600 !important;
+        font-size: 0.9em;
+        letter-spacing: 3px;
+        line-height: 1em;
+        text-transform: uppercase;
+      }
+
+      body,
+      input,
+      .search-field,
+      select,
+      textarea,
+      cite.fn,
+      .footer-info-wrap,
+      .topbar-text-wrap,
+      .site-title,
+      .site-title a,
+      .main-navigation ul li .site-title a,
+      .woocommerce .product-categories-list h2.woocommerce-loop-category__title,
+      .woocommerce .product-categories-list-all,
+      h2.menu-cat.use-body-font,
+      h6.menu-title.use-body-font,
+      .menu-price-title.use-body-font,
+      .quotetext.use-body-font,
+      .topbar-text-wrap.use-body-font .topbar-text,
+      .main-navigation.use-headline-font,
+      .product-categories-list.use-headline-font,
+      .footer-sidebar-wrap.use-body-font .widget-title,
+      .widget-area.use-body-font .widget-title,
+      .comments-area.use-body-font h3#reply-title,
+      .comments-area.use-body-font h2.comments-title,
+      .related.use-body-font,
+      .post-nav-top-text.use-body-font,
+      .post-nav-top-text,
+      use-body-font,
+      .product-title-use-body-font h2.woocommerce-loop-product__title,
+      .product-title-use-body-font h1.product_title,
+      .product-title-use-body-font .wc-block-grid__product-title,
+      .single-product-title-use-body-font .product_title,
+      .block-editor-block-list__layout,
+      .woocommerce h1.page-title,
+      .woocommerce-page h1.page-title,
+      .woocommerce-cart h1.page-title,
+      .woocommerce-checkout h1.page-title {
+        font-family: Poppins, Helvetica, Arial, sans-serif;
+        font-weight: 200;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      .post-title-small,
+      .dropcap,
+      .content-box-wysiwyg.heading,
+      .wp-block-cover-image-text,
+      .wp-block-latest-posts li a,
+      .widget_recent_entries li a,
+      .menu-price.use-headline-font,
+      .menu-price-title.use-headline-font,
+      .quotetext.use-headline-font,
+      .topbar-text-wrap.use-headline-font .topbar-text,
+      .main-navigation.use-headline-font,
+      .woocommerce
+        .product-categories-list.use-headline-font
+        h2.woocommerce-loop-category__title,
+      .woocommerce
+        .product-categories-list.use-headline-font
+        .product-categories-list-all,
+      .footer-sidebar-wrap.use-headline-font .widget-title,
+      .widget-area.use-headline-font .widget-title,
+      .subtitle-above.use-headline-font,
+      .vertical-text.use-headline-font,
+      .sidemenu-use-headline-font,
+      .product-title-use-headline-font .wc-block-grid__product-title,
+      .single-product-title-use-headline-font .product_title {
+        font-family: Jost, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+      }
+
+      .topbar-text,
+      .topbar-text-wrap.use-body-font .topbar-text,
+      .topbar-text-wrap.use-headline-font .topbar-text {
+        font-weight: 400;
+      }
+
+      .topbar-text {
+        font-size: 0.7em;
+        letter-spacing: 0.9px;
+        text-transform: none;
+      }
+
+      .main-navigation,
+      .main-navigation.use-headline-font,
+      .wp-block-pages-list__item__link,
+      .woocommerce .product-categories-list-all,
+      .woocommerce .product-categories-list h2.woocommerce-loop-category__title,
+      .woocommerce
+        .product-categories-list.use-headline-font
+        h2.woocommerce-loop-category__title {
+        font-weight: 400;
+      }
+
+      .main-navigation,
+      .wp-block-pages-list__item__link,
+      .woocommerce .product-categories-list-all,
+      .woocommerce .product-categories-list h2.woocommerce-loop-category__title,
+      .woocommerce
+        .product-categories-list
+        .product-categories-list-select
+        h2.woocommerce-loop-category__title,
+      .woocommerce
+        .product-categories-list.use-headline-font
+        h2.woocommerce-loop-category__title {
+        font-size: 0.8em !important;
+        letter-spacing: 2.4px !important;
+      }
+
+      .main-navigation ul.sub-menu li a,
+      .main-navigation ul.children li a {
+        font-size: 0.92em;
+      }
+
+      .footer-info-wrap {
+        font-weight: 400;
+        font-size: 0.6em;
+        letter-spacing: 2px;
+        line-height: 1.7em;
+        text-transform: uppercase;
+      }
+
+      .hero-title {
+        font-size: 4em;
+      }
+
+      .section-blog h2.entry-title,
+      .wp-block-post-title {
+        font-size: 1.5em;
+      }
+
+      h4.team-name {
+        font-size: 1.54em;
+      }
+
+      .section-team .team-text {
+        font-size: 0.8em;
+        letter-spacing: 1.4px;
+        line-height: 1.7em;
+        text-transform: uppercase;
+      }
+
+      .quotetext {
+        font-weight: 500 !important;
+      }
+
+      .block-editor-block-list__block .quotetext {
+        font-size: 48px;
+      }
+
+      h2.menu-cat,
+      h2.menu-cat.use-body-font,
+      h2.menu-cat.use-headline-font {
+        font-weight: 500;
+      }
+
+      .menu-cat {
+        font-size: 1.8em;
+        letter-spacing: 6px;
+        line-height: 1.5em;
+        text-transform: uppercase;
+      }
+
+      .menu-desc {
+        font-weight: 200;
+        font-style: italic;
+        font-size: 0.9em;
+        line-height: 1.7em;
+      }
+
+      h6.menu-title,
+      h6.menu-title.use-body-font,
+      h6.menu-title.use-headline-font,
+      .menu-price,
+      .menu-price-title.use-body-font,
+      .menu-price-title.use-headline-font,
+      .menu-price.use-body-font,
+      .menu-price.use-headline-font {
+        font-weight: 400;
+      }
+
+      h6.menu-title,
+      .menu-price,
+      .menu-price-title {
+        font-size: 1em;
+        letter-spacing: 1px;
+        line-height: 1.7em;
+        text-transform: none;
+      }
+
+      h2.menu-cat.solid-bottom-border,
+      h2.menu-cat.solid-bottom-top-border,
+      h2.menu-cat.dotted-bottom-top-border,
+      h2.menu-cat.dotted-bottom-border {
+        border-width: 3px !important;
+      }
+
+      .menu-categories .featured1 {
+        border-width: 3px !important;
+      }
+
+      .menu-description {
+        font-size: 0.86em;
+        line-height: 1.7em;
+      }
+
+      .menu-cat-content {
+        font-size: 0.9em;
+        line-height: 1.7em;
+      }
+
+      .menu-price-title {
+        font-size: 0.8em;
+      }
+
+      .widget-area .widget_block {
+        font-size: 0.9em;
+      }
+
+      .right-sidebar .widget-title,
+      .right-sidebar.widget-area,
+      .right-sidebar .widget_archive,
+      .right-sidebar .widget_categories,
+      .right-sidebar .widget_meta,
+      .right-sidebar .widget_recent_entries,
+      .right-sidebar .widget_pages,
+      .right-sidebar .widget_recent_comments,
+      .right-sidebar .widget_nav_menu,
+      .right-sidebar .tag-cloud,
+      .right-sidebar .featured-post,
+      .right-sidebar .social_widget .social-wrap,
+      .right-sidebar .widget {
+        text-align: left;
+      }
+
+      .footer-widget-area .widget-title,
+      .footer-widget-area .widget-area,
+      .footer-widget-area .widget_archive,
+      .footer-widget-area .widget_categories,
+      .footer-widget-area .widget_meta,
+      .footer-widget-area .widget_recent_entries,
+      .footer-widget-area .widget_pages,
+      .footer-widget-area .widget_recent_comments,
+      .footer-widget-area .widget_nav_menu,
+      .footer-widget-area .social_widget .social-wrap,
+      .footer-widget-area .featured-post,
+      .footer-widget-area .widget,
+      .footer-widget-area .tag-cloud {
+        text-align: center;
+      }
+
+      .widget-area h1,
+      .widget-area h2,
+      .widget-area h3,
+      .widget-area h4,
+      .widget-area h5,
+      .widget-area h6,
+      .footer-sidebar-wrap h1,
+      .footer-sidebar-wrap h2,
+      .footer-sidebar-wrap h3,
+      .footer-sidebar-wrap h4,
+      .footer-sidebar-wrap h5,
+      .footer-sidebar-wrap h6 {
+        letter-spacing: 6;
+        text-transform: uppercase;
+      }
+
+      .widget-area h1 {
+        font-size: 1.9em;
+        line-height: 1.5em;
+      }
+
+      .widget-area h2 {
+        font-size: 1.6em;
+        line-height: 1.5em;
+      }
+
+      .widget-area h3 {
+        font-size: 1.5em;
+        line-height: 1.5em;
+      }
+
+      .widget-area h4 {
+        font-size: 1.4em;
+        line-height: 1.5em;
+      }
+
+      .widget-area h5 {
+        font-size: 1.34em;
+        line-height: 1.5em;
+      }
+
+      .widget-area h6 {
+        font-size: 1.16em;
+        line-height: 1.6em;
+      }
+
+      .widget.widget_recent_comments ul ul li:first-child,
+      .widget.widget_meta ul ul li:first-child,
+      .widget.widget_pages ul ul li:first-child,
+      .widget.widget_nav_menu ul ul li:first-child,
+      .widget.widget_categories ul ul li:first-child,
+      .widget.widget_archive ul ul li:first-child,
+      .wp-block-archives ul li:first-child,
+      .wp-block-categories-list ul li:first-child,
+      .widget.widget_recent_comments ul li,
+      .widget.widget_meta ul li,
+      .widget.widget_pages ul li,
+      .widget.widget_nav_menu ul li,
+      .widget.widget_categories ul li,
+      .widget.widget_archive ul li,
+      .wp-block-archives li,
+      .wp-block-categories-list li {
+        border-top: none;
+      }
+
+      .woocommerce .product h3,
+      .woocommerce .product h2.woocommerce-loop-product__title,
+      .woocommerce h2.woocommerce-loop-category__title,
+      .woocommerce .widget .product-title,
+      .woocommerce .entry-summary h1.product_title,
+      .wc-block-grid__product-title,
+      .product-title-use-body-font .wc-block-grid__product-title,
+      .product-title-headline-body-font .wc-block-grid__product-title,
+      .wc-block-grid__product-title {
+        font-weight: 400;
+      }
+
+      :root,
+      .edit-post-visual-editor__post-title-wrapper,
+      .woocommerce .variations select,
+      .woocommerce select.orderby {
+        background-color: #0a0b0a;
+      }
+
+      html,
+      body,
+      p,
+      a,
+      a:link,
+      a:focus,
+      a:active,
+      .widget_recent_comments .recentcomments a,
+      input,
+      input.search-field,
+      input.search-field::-webkit-input-placeholder,
+      input.search-field::placeholder,
+      select,
+      textarea,
+      .dropcap,
+      .main-navigation ul li a,
+      .main-navigation ul li a:link,
+      .main-navigation ul li a:focus,
+      .main-navigation ul li a:active,
+      .woocommerce-cart .entry-content .woocommerce-cart-form .cart_item a,
+      .woocommerce .price,
+      .entry-meta-single a,
+      .entry-meta-single a:link,
+      .entry-meta-single a:active,
+      .entry-meta-single a:visited,
+      .wc-block-pagination-page:not(.toggle),
+      .button.add_to_cart_button,
+      a.button.add_to_cart_button,
+      a.button.add_to_cart_button:link,
+      a.button.add_to_cart_button:visited,
+      .button.product_type_grouped,
+      a.button.product_type_grouped,
+      a.button.product_type_grouped:link,
+      a.button.product_type_grouped:visited,
+      .button.product_type_grouped:not(.button-outline):not(
+          .add_to_cart_button
+        ):not(.content-white):not(.content-black),
+      a.button.product_type_grouped:not(.button-outline):not(
+          .add_to_cart_button
+        ):not(.content-white):not(.content-black),
+      .added_to_cart,
+      .button.button-searchform,
+      .button:not(.button-outline):not(.add_to_cart_button).button-searchform,
+      .section-blog i,
+      .social_widget a,
+      .entry-content
+        ul:not(.wp-block-latest-posts__list):not(.wp-block-archives):not(
+          .wp-block-archive
+        ):not(.wp-block-categories-list)
+        li.cat-item
+        a:not(.wc-block-grid__product-link) {
+        color: #ffffff;
+      }
+
+      .block-editor-block-list__block {
+        color: #ffffff;
+      }
+
+      .xx,
+      .entry-content
+        p
+        a:not(.button):not(.wp-block-button__link):not(
+          .wc-block-grid__product-link
+        ):not(.menu-tab-button),
+      .entry-content
+        ul:not(.socialicons):not(.wp-block-categories__list):not(
+          .wp-block-latest-posts__list
+        ):not(.wp-block-archives):not(.wp-block-archive):not(
+          .wp-block-categories-list
+        )
+        li:not(.cat-item)
+        a:not(.wc-block-grid__product-link):not(.menu-tab-button),
+      .comment-text p a,
+      .comment-text ul li a,
+      .textwidget p a,
+      .textwidget ul li a {
+        color: #a6796f;
+      }
+
+      .post-tag:hover {
+        background-color: #a6796f;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      h1 a,
+      h2 a,
+      h3 a,
+      h4 a,
+      h5 a,
+      h6 a,
+      h1 a:link,
+      h2 a:link,
+      h3 a:link,
+      h4 a:link,
+      h5 a:link,
+      h6 a:link,
+      .site-title a,
+      .site-title a:link,
+      .site-title a:hover,
+      .site-title a:focus,
+      .site-titlea:active,
+      .site-title a:hover,
+      h1 a:visited,
+      h2 a:visited,
+      h3 a:visited,
+      h4 a:visited,
+      h5 a:visited,
+      h6 a:visited,
+      .post-title-small,
+      .post-title-small a,
+      .single .entry-title,
+      .post-title-small,
+      .wpp-post-title,
+      table th,
+      label,
+      .menu-price,
+      .menu-price-title,
+      .product-categories-list-all a,
+      .wc-block-grid__product-title,
+      .section-blog h2 a,
+      .section-blog h2 a:link,
+      .section-blog h2 a:focus,
+      .section-blog h2 a:active,
+      .question,
+      .search .entry-title {
+        color: #ffffff;
+      }
+
+      .question:before,
+      .question:after {
+        background-color: #ffffff;
+      }
+
+      h1 a:hover,
+      h2 a:hover,
+      h3 a:hover,
+      h4 a:hover,
+      h5 a:hover,
+      h6 a:hover,
+      .post-title-small:hover,
+      .post-title-small a:hover,
+      .button.button-more.button-outline:hover {
+        color: #bd9576;
+      }
+
+      .hero-divider,
+      .divider-block,
+      .contentboxes-divider {
+        background-color: #ffffff;
+      }
+
+      .subtitle-above:not(.content-white):not(.team-content-item):not(
+          .subtitle-above-page-thumb
+        ) {
+        color: #ffffff;
+      }
+
+      .carousel-inner {
+        background-color: #1b1b1c;
+      }
+
+      .quotetext,
+      #carousel-1:checked
+        ~ .control-1
+        ~ .carousel-indicators
+        li:nth-child(1)
+        .carousel-bullet,
+      #carousel-2:checked
+        ~ .control-2
+        ~ .carousel-indicators
+        li:nth-child(2)
+        .carousel-bullet,
+      #carousel-3:checked
+        ~ .control-3
+        ~ .carousel-indicators
+        li:nth-child(3)
+        .carousel-bullet,
+      #carousel-4:checked
+        ~ .control-4
+        ~ .carousel-indicators
+        li:nth-child(4)
+        .carousel-bullet,
+      #carousel-5:checked
+        ~ .control-5
+        ~ .carousel-indicators
+        li:nth-child(5)
+        .carousel-bullet,
+      #carousel-6:checked
+        ~ .control-6
+        ~ .carousel-indicators
+        li:nth-child(6)
+        .carousel-bullet,
+      #carousel-7:checked
+        ~ .control-7
+        ~ .carousel-indicators
+        li:nth-child(7)
+        .carousel-bullet,
+      #carousel-8:checked
+        ~ .control-8
+        ~ .carousel-indicators
+        li:nth-child(8)
+        .carousel-bullet,
+      #carousel-9:checked
+        ~ .control-9
+        ~ .carousel-indicators
+        li:nth-child(9)
+        .carousel-bullet,
+      #carousel-10:checked
+        ~ .control-10
+        ~ .carousel-indicators
+        li:nth-child(10)
+        .carousel-bullet,
+      #carousel-11:checked
+        ~ .control-11
+        ~ .carousel-indicators
+        li:nth-child(11)
+        .carousel-bullet,
+      #carousel-12:checked
+        ~ .control-12
+        ~ .carousel-indicators
+        li:nth-child(12)
+        .carousel-bullet,
+      #carousel-13:checked
+        ~ .control-13
+        ~ .carousel-indicators
+        li:nth-child(13)
+        .carousel-bullet,
+      #carousel-14:checked
+        ~ .control-14
+        ~ .carousel-indicators
+        li:nth-child(14)
+        .carousel-bullet,
+      #carousel-15:checked
+        ~ .control-15
+        ~ .carousel-indicators
+        li:nth-child(15)
+        .carousel-bullet,
+      #carousel-16:checked
+        ~ .control-16
+        ~ .carousel-indicators
+        li:nth-child(16)
+        .carousel-bullet,
+      #carousel-17:checked
+        ~ .control-17
+        ~ .carousel-indicators
+        li:nth-child(17)
+        .carousel-bullet,
+      #carousel-18:checked
+        ~ .control-18
+        ~ .carousel-indicators
+        li:nth-child(18)
+        .carousel-bullet,
+      #carousel-19:checked
+        ~ .control-19
+        ~ .carousel-indicators
+        li:nth-child(19)
+        .carousel-bullet,
+      #carousel-20:checked
+        ~ .control-20
+        ~ .carousel-indicators
+        li:nth-child(20)
+        .carousel-bullet {
+        color: #eeeeef;
+      }
+
+      .quoteinfo {
+        color: #88888a;
+      }
+
+      .carousel-arrow {
+        border-color: #4d4d4e;
+      }
+
+      .carousel-bullet {
+        color: #4d4d4e;
+      }
+
+      .mc4wp-form {
+        background-color: #1b1a1c;
+      }
+
+      .mc4wp-form,
+      .mc4wp-form input[type="email"],
+      .mc4wp-form h1,
+      .mc4wp-form h2,
+      .mc4wp-form h3,
+      .mc4wp-form h4,
+      .mc4wp-form h5,
+      .mc4wp-form h6 {
+        color: #ffffff;
+      }
+
+      .mc4wp-form input[type="email"] {
+        border-color: #ffffff;
+      }
+
+      .button:not(.button-outline),
+      a.button:not(.button-outline),
+      input[type="button"],
+      input[type="reset"],
+      input[type="submit"],
+      .wp-block-button:not(.is-style-outline)
+        .wp-block-button__link:not(.has-background) {
+        background-color: #ffffff;
+        border-color: #ffffff;
+      }
+
+      .button:not(.button-outline):not(.add_to_cart_button):not(
+          .content-white
+        ):not(.content-black),
+      a.button:not(.button-outline):not(.add_to_cart_button):not(
+          .content-white
+        ):not(.content-black),
+      input[type="button"],
+      input[type="reset"],
+      input[type="submit"],
+      .wp-block-button .wp-block-button__link:not(.has-text-color) {
+        color: #000000;
+      }
+
+      .button:not(.button-searchform):not(.button-outline):hover,
+      a.button:not(.button-searchform):hover,
+      .reply:hover,
+      input[type="button"]:hover,
+      input[type="reset"]:hover,
+      input[type="submit"]:hover,
+      .wp-block-button
+        .wp-block-button__link:not(.has-text-color):not(.has-background):hover,
+      .wp-block-button:not(is-style-outline)
+        .wp-block-button__link:not(.has-text-color):not(.has-background):hover,
+      .wp-block-button:not(.is-style-outline)
+        .wp-block-button__link:not(.has-text-color):not(.has-background):hover {
+        background-color: #a6796f;
+      }
+
+      .button:not(.button-searchform):not(.button-outline):hover,
+      a.button:not(.button-searchform):hover,
+      .ot-dtp-picker .ot-dtp-picker-button:hover,
+      .ot-button:hover,
+      .reply:hover,
+      input[type="button"]:hover,
+      input[type="reset"]:hover,
+      input[type="submit"]:hover,
+      .wp-block-button
+        .wp-block-button__link:not(.has-text-color):not(.has-background):hover,
+      .wp-block-button:not(is-style-outline)
+        .wp-block-button__link:not(.has-text-color):not(.has-background):hover,
+      .wp-block-button:not(.is-style-outline)
+        .wp-block-button__link:not(.has-text-color):not(.has-background):hover {
+        border-color: #a6796f;
+      }
+
+      .button:not(.button-outline):not(.add_to_cart_button):not(
+          .content-white
+        ):not(.content-black):hover,
+      a.button:not(.button-outline):not(.add_to_cart_button):not(
+          .content-white
+        ):not(.content-black):hover,
+      .reply:hover,
+      input[type="button"]:hover,
+      input[type="reset"]:hover,
+      input[type="submit"]:hover,
+      .wp-block-button
+        .wp-block-button__link:not(.has-text-color):not(.has-background):hover,
+      .button:not(.button-outline):not(.add_to_cart_button):not(
+          .content-white
+        ):not(.content-white-pluscolor):not(.content-dark):hover {
+        color: #ffffff;
+      }
+
+      .button-outline:not(.content-black):not(.content-white):not(:hover):not(
+          .header-button
+        ),
+      a.button.button-outline:not(.content-black):not(.content-white):not(
+          :hover
+        ):not(.header-button),
+      .button-more.button-outline:not(:hover),
+      .wp-block-button.is-style-outline
+        .wp-block-button__link:not(.has-text-color):not(:hover),
+      .menu-tab-button,
+      a.menu-tab-button,
+      a.menu-tab-button:link {
+        color: #ffffff;
+      }
+
+      .button-outline,
+      a.button.button-outline,
+      .button-more.button-outline,
+      .wp-block-button.is-style-outline
+        .wp-block-button__link:not(.has-text-color),
+      .menu-tabs .menu-tab.active .menu-tab-button {
+        border-color: #ffffff;
+      }
+
+      .button-outline:hover,
+      a.button.button-outline:hover,
+      .button-more.button-outline:hover,
+      .wp-block-button.is-style-outline .wp-block-button__link:hover,
+      .transparent-header.transparent-header-color:not(.stuck)
+        a.button.button-outline.header-button:hover {
+        border-color: #ffffff;
+      }
+
+      .button-outline:not(.button-more):not(.content-white):hover,
+      a.button.button-outline:hover,
+      .wp-block-button.is-style-outline .wp-block-button__link:hover,
+      .wp-block-button.is-style-outline
+        .wp-block-button__link:not(.has-text-color):not(.has-background):hover {
+        background-color: #ffffff;
+      }
+
+      .button-outline:hover,
+      a.button.button-outline:hover,
+      .wp-block-button.is-style-outline .wp-block-button__link:hover,
+      .wp-block-button.is-style-outline
+        .wp-block-button__link:not(.has-text-color):not(.has-background):hover,
+      a.button.button-outline.header-button:hover {
+        border-color: #ffffff;
+      }
+
+      .button-outline:not(.button-more):hover,
+      a.button.button-outline:hover,
+      .wp-block-button.is-style-outline
+        .wp-block-button__link:not(.has-text-color):not(.has-background):hover,
+      .button.button-outline:not(.add_to_cart_button):not(.content-white):not(
+          .content-white-pluscolor
+        ):not(.content-dark):not(.button-more):hover {
+        color: #000000;
+      }
+
+      .topbar {
+        background-color: #1a191b;
+      }
+
+      .topbar-content i:hover,
+      .topbar-content a:hover,
+      .cart-contents:hover:before {
+        color: #a6796f;
+      }
+
+      #header:not(.transparent-header),
+      #header.transparent-header.stuck #header-regular,
+      #header.transparent-header.stuck #header-responsive,
+      .navi-wrap-responsive,
+      #header:not(.transparent-header) #toggle,
+      #header.transparent-header.stuck #header-regular #toggle,
+      #header.transparent-header.stuck #header-responsive #toggle {
+        background-color: #000000;
+      }
+
+      .main-navigation ul li a,
+      .main-navigation ul li a:link,
+      .header-wrap i,
+      .cart-contents:before,
+      .cart-contents-count,
+      .navi-wrap-responsive ul li,
+      .navi-wrap-responsive ul li a,
+      a.button.button-outline.header-button,
+      .navi-wrap-responsive .menu-item.menu-item-has-children:after {
+        color: #ffffff;
+      }
+
+      a.button.button-outline.header-button {
+        border-color: #ffffff;
+      }
+
+      #toggle div.bar,
+      #toggle div.bar:before,
+      #toggle div.bar:after,
+      #toggle-sidenavi div.bar,
+      #toggle-sidenavi div.bar:before,
+      #toggle-sidenavi div.bar:after {
+        background-color: #ffffff;
+      }
+
+      .main-navigation ul li:not(.menu-item-logo) a:hover,
+      .header-wrap2 a i:hover,
+      .navi-wrap-responsive ul li a:hover {
+        color: #ffffff;
+      }
+
+      .main-navigation .sub-menu,
+      .main-navigation .children {
+        background-color: #000000;
+      }
+
+      .main-navigation ul.sub-menu li a,
+      .main-navigation ul.children li a,
+      .main-navigation ul.sub-menu li a:visited,
+      .main-navigation ul.children li a:visited {
+        color: #ffffff;
+      }
+
+      .main-navigation ul.sub-menu li a:hover,
+      .main-navigation ul.children li a:hover {
+        color: #ffffff;
+      }
+
+      .transparent-header.transparent-header-color:not(.stuck)
+        .main-navigation
+        > ul
+        > li
+        > a,
+      .transparent-header.transparent-header-color:not(.stuck)
+        .main-navigation
+        ul
+        li
+        a:link,
+      .transparent-header.transparent-header-color:not(.stuck) .header-wrap i,
+      .transparent-header.transparent-header-color:not(.stuck)
+        .cart-contents:before,
+      .transparent-header.transparent-header-color:not(.stuck)
+        .cart-contents-count,
+      .transparent-header.transparent-header-color:not(.stuck) .site-title a,
+      .transparent-header.transparent-header-color:not(.stuck)
+        .site-title
+        a:link,
+      .transparent-header.transparent-header-color:not(.stuck)
+        a.button.button-outline.header-button {
+        color: #ffffff;
+      }
+
+      .transparent-header.transparent-header-color:not(.stuck) #toggle div.bar,
+      .transparent-header.transparent-header-color:not(.stuck)
+        #toggle
+        div.bar:before,
+      .transparent-header.transparent-header-color:not(.stuck)
+        #toggle
+        div.bar:after,
+      .transparent-header.transparent-header-color:not(.stuck)
+        #toggle-sidenavi
+        div.bar,
+      .transparent-header.transparent-header-color:not(.stuck)
+        #toggle-sidenavi
+        div.bar:before,
+      .transparent-header.transparent-header-color:not(.stuck)
+        #toggle-sidenavi
+        div.bar:after {
+        background-color: #ffffff;
+      }
+
+      .transparent-header.transparent-header-color:not(.stuck)
+        a.button.button-outline.header-button {
+        border-color: #ffffff;
+      }
+
+      .footer-sidebar-wrap {
+        background-color: #1a191b;
+      }
+
+      .footer-sidebar-wrap
+        .wp-block-button
+        .wp-block-button__link:not(.has-text-color),
+      .footer-sidebar-wrap
+        .wp-block-button.is-style-outline
+        .wp-block-button__link:not(.has-text-color):not(.has-background):hover,
+      .footer-sidebar-wrap
+        .wp-block-button
+        .wp-block-button__link:not(.has-text-color):not(.has-background):hover {
+        color: #1a191b;
+      }
+
+      .footer-sidebar-wrap a:hover,
+      .footer-sidebar-wrap .social_widget a i:hover,
+      .footer-sidebar-wrap .widget_recent_comments .recentcomments a:hover,
+      .footer-sidebar-wrap
+        .button.button-searchform:not(.button-outline):hover {
+        color: #bd9576;
+      }
+
+      .footer-wrap {
+        background-color: #2a292b;
+      }
+
+      .footer-info-wrap a:hover {
+        color: #bd9576;
+      }
+
+      body.blog,
+      body.search,
+      body.archive:not(.woocommerce),
+      body.single-post {
+        background-color: #0a0b0a;
+      }
+
+      .blog .post,
+      .archive .post,
+      .search .post,
+      .search .page,
+      .search .product,
+      .section-blog article,
+      .blog .right-sidebar .widget,
+      .archive:not(.woocommerce) .right-sidebar .widget,
+      .single-post .right-sidebar .widget,
+      .single-post .entry-header,
+      .entry-header-wrap,
+      .nav-previous-wrap,
+      .nav-next-wrap,
+      .related-posts,
+      #respond,
+      .comment-list-wrap {
+        background-color: #191a19;
+      }
+
+      .post-tag {
+        background-color: #1a1b1a;
+      }
+
+      input[type="color"],
+      input[type="date"],
+      input[type="datetime"],
+      input[type="datetime-local"],
+      input[type="email"],
+      input[type="checkbox"],
+      input[type="month"],
+      input[type="number"],
+      input[type="password"],
+      input[type="search"],
+      input[type="tel"],
+      input[type="text"],
+      input[type="time"],
+      input[type="url"],
+      input[type="week"],
+      input:not([type]),
+      select,
+      .woocommerce-checkout
+        .form-row
+        span.select2-selection.select2-selection--single,
+      textarea {
+        border-color: #444;
+      }
+
+      .logowrap.logo-img {
+        max-width: 197px;
+      }
+
+      #header-responsive .navi-wrap-responsive .menu-item a,
+      #header-responsive .navi-wrap-responsive .page_item a {
+        font-weight: 600;
+        font-size: 1.2em;
+        letter-spacing: 2.8px;
+        line-height: 1.5em;
+        text-transform: uppercase;
+      }
+
+      #header-responsive .navi-wrap-responsive .sub-menu .menu-item a {
+        font-weight: 400;
+        font-size: 0.92em;
+        letter-spacing: 0.6px;
+        line-height: 1.5em;
+        text-transform: uppercase;
+      }
+
+      @media (max-width: 767px) {
+        .text-logo .site-title,
+        .text-logo .site-title a {
+          font-size: 1.4em;
+        }
+
+        .page-title,
+        .woocommerce h1.page-title,
+        .woocommerce-page h1.page-title,
+        .woocommerce-cart h1.page-title,
+        .woocommerce-checkout h1.page-title {
+          font-size: 2.6em;
+        }
+
+        .single .entry-title {
+          font-size: 3.4em;
+        }
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiAyp8kv8JHgFVrJJLmE0tDMPShSkFEkm8.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiAyp8kv8JHgFVrJJLmE0tMMPShSkFEkm8.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiAyp8kv8JHgFVrJJLmE0tCMPShSkFE.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmv1pVFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmv1pVGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmv1pVF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm21lVFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm21lVGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm21lVF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiGyp8kv8JHgFVrJJLucXtGOvWDSHFF.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiGyp8kv8JHgFVrJJLufntGOvWDSHFF.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiGyp8kv8JHgFVrJJLucHtGOvWDSA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmg1hVFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmg1hVGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmg1hVF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmr19VFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmr19VGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmr19VF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmy15VFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmy15VGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmy15VF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm111VFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm111VGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm111VF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm81xVFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm81xVGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm81xVF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiGyp8kv8JHgFVrLPTucXtGOvWDSHFF.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiGyp8kv8JHgFVrLPTufntGOvWDSHFF.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiGyp8kv8JHgFVrLPTucHtGOvWDSA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLFj_Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLFj_Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLFj_Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLDz8Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLDz8Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLDz8Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiEyp8kv8JHgFVrJJbedHFHGPezSQ.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiEyp8kv8JHgFVrJJnedHFHGPezSQ.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiEyp8kv8JHgFVrJJfedHFHGPc.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLGT9Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLGT9Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLGT9Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLEj6Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLEj6Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLEj6Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLCz7Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLCz7Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLCz7Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLDD4Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLDD4Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLDD4Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLBT5Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLBT5Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLBT5Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0EBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0EBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0EBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0FBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0FBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0FBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZrMFBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZrMFBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZrMFBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0FBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0FBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0FBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZt8FBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZt8FBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZt8FBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZjMCBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZjMCBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZjMCBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZgoCBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZgoCBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZgoCBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0CBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0CBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0CBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZkQCBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZkQCBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZkQCBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myjJDVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myjJDVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myjJDVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwjJTVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwjJTVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwjJTVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mz9JTVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mz9JTVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mz9JTVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myjJTVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myjJTVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myjJTVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myRJTVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myRJTVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myRJTVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mx9IjVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mx9IjVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mx9IjVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mxEIjVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mxEIjVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mxEIjVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwjIjVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwjIjVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwjIjVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwKIjVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwKIjVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwKIjVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiAyp8kv8JHgFVrJJLmE0tDMPShSkFEkm8.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiAyp8kv8JHgFVrJJLmE0tMMPShSkFEkm8.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiAyp8kv8JHgFVrJJLmE0tCMPShSkFE.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmv1pVFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmv1pVGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmv1pVF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm21lVFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm21lVGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm21lVF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiGyp8kv8JHgFVrJJLucXtGOvWDSHFF.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiGyp8kv8JHgFVrJJLufntGOvWDSHFF.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiGyp8kv8JHgFVrJJLucHtGOvWDSA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmg1hVFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmg1hVGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmg1hVF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmr19VFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmr19VGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmr19VF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmy15VFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmy15VGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmy15VF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm111VFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm111VGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm111VF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm81xVFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm81xVGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm81xVF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiGyp8kv8JHgFVrLPTucXtGOvWDSHFF.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiGyp8kv8JHgFVrLPTufntGOvWDSHFF.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiGyp8kv8JHgFVrLPTucHtGOvWDSA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLFj_Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLFj_Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLFj_Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLDz8Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLDz8Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLDz8Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiEyp8kv8JHgFVrJJbedHFHGPezSQ.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiEyp8kv8JHgFVrJJnedHFHGPezSQ.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiEyp8kv8JHgFVrJJfedHFHGPc.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLGT9Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLGT9Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLGT9Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLEj6Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLEj6Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLEj6Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLCz7Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLCz7Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLCz7Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLDD4Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLDD4Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLDD4Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLBT5Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLBT5Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLBT5Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0EBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0EBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0EBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0FBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0FBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0FBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZrMFBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZrMFBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZrMFBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0FBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0FBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0FBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZt8FBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZt8FBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZt8FBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZjMCBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZjMCBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZjMCBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZgoCBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZgoCBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZgoCBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0CBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0CBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0CBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZkQCBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZkQCBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZkQCBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myjJDVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myjJDVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myjJDVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwjJTVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwjJTVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwjJTVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mz9JTVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mz9JTVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mz9JTVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myjJTVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myjJTVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myjJTVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myRJTVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myRJTVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myRJTVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mx9IjVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mx9IjVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mx9IjVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mxEIjVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mxEIjVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mxEIjVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwjIjVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwjIjVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwjIjVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwKIjVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwKIjVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwKIjVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiAyp8kv8JHgFVrJJLmE0tDMPShSkFEkm8.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiAyp8kv8JHgFVrJJLmE0tMMPShSkFEkm8.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiAyp8kv8JHgFVrJJLmE0tCMPShSkFE.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmv1pVFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmv1pVGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmv1pVF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm21lVFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm21lVGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm21lVF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiGyp8kv8JHgFVrJJLucXtGOvWDSHFF.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiGyp8kv8JHgFVrJJLufntGOvWDSHFF.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiGyp8kv8JHgFVrJJLucHtGOvWDSA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmg1hVFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmg1hVGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmg1hVF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmr19VFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmr19VGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmr19VF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmy15VFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmy15VGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmy15VF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm111VFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm111VGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm111VF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm81xVFteIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm81xVGdeIYktMqlap.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLm81xVF9eIYktMqg.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiGyp8kv8JHgFVrLPTucXtGOvWDSHFF.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiGyp8kv8JHgFVrLPTufntGOvWDSHFF.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiGyp8kv8JHgFVrLPTucHtGOvWDSA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLFj_Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLFj_Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLFj_Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLDz8Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLDz8Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLDz8Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiEyp8kv8JHgFVrJJbedHFHGPezSQ.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiEyp8kv8JHgFVrJJnedHFHGPezSQ.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiEyp8kv8JHgFVrJJfedHFHGPc.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLGT9Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLGT9Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLGT9Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLEj6Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLEj6Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLEj6Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLCz7Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLCz7Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLCz7Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLDD4Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLDD4Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLDD4Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLBT5Z11lE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9,
+          U+25CC, U+A830-A839, U+A8E0-A8FF;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLBT5Z1JlE92JQEl8qw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/poppins/pxiByp8kv8JHgFVrLBT5Z1xlE92JQEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0EBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0EBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0EBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0FBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0FBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0FBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZrMFBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZrMFBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZrMFBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0FBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0FBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0FBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZt8FBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZt8FBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZt8FBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZjMCBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZjMCBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZjMCBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZgoCBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZgoCBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZgoCBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0CBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0CBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0CBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZkQCBI4kmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZkQCBIQkmNPOIEtmCIZ3.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: italic;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zJtBhPNqw73oHH7BbQp4-B6XlrZkQCBIokmNPOIEtmCA.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myjJDVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myjJDVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myjJDVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwjJTVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwjJTVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwjJTVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mz9JTVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mz9JTVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mz9JTVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myjJTVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myjJTVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myjJTVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myRJTVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myRJTVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7myRJTVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mx9IjVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mx9IjVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mx9IjVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mxEIjVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mxEIjVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mxEIjVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwjIjVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwjIjVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwjIjVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwKIjVFNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwKIjVPNI4un_HKCEl-Cw.woff)
+          format("woff");
+        unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/wp-content/fonts/jost/92zPtBhPNqw79Ij1E865zBUv7mwKIjVBNI4un_HKCEk.woff)
+          format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
