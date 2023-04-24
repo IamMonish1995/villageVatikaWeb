@@ -1309,8 +1309,8 @@
                           ></p>
                           <ul></ul>
                         </div>
-                        <form
-                          action="https://soulkitchen.redsun.design/dark/book-a-table/#wpcf7-f1425-p3986-o1"
+                        <!-- <form
+                          autocomplete="off" name="reservationform"
                           method="post"
                           class="wpcf7-form init"
                           aria-label="Contact form"
@@ -1318,32 +1318,7 @@
                           data-status="init"
                         >
                           <div style="display: none">
-                            <input type="hidden" name="_wpcf7" value="1425" />
-                            <input
-                              type="hidden"
-                              name="_wpcf7_version"
-                              value="5.7.5.1"
-                            />
-                            <input
-                              type="hidden"
-                              name="_wpcf7_locale"
-                              value="en_US"
-                            />
-                            <input
-                              type="hidden"
-                              name="_wpcf7_unit_tag"
-                              value="wpcf7-f1425-p3986-o1"
-                            />
-                            <input
-                              type="hidden"
-                              name="_wpcf7_container_post"
-                              value="3986"
-                            />
-                            <input
-                              type="hidden"
-                              name="_wpcf7_posted_data_hash"
-                              value=""
-                            />
+                            
                           </div>
                           <p>
                             <label>
@@ -1522,6 +1497,21 @@
                             class="wpcf7-response-output"
                             aria-hidden="true"
                           ></div>
+                        </form> -->
+
+                        <form method="post" autocomplete="off" name="google-sheet">
+                            <div class="form-group">
+                                <input type="text" name="Name" class="form-control" placeholder="Your Name *" value="" required=""/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="Email" class="form-control" placeholder="Your Email *" value="" required=""/>
+                            </div>
+                            <div class="form-group">
+                                <input type="number" name="Phone" class="form-control" placeholder="Your Contact Number *" value="" required=""/>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" name="submit" class="btnSubmit btn-block" value="Login" />
+                            </div>
                         </form>
                       </div>
                     </div>
@@ -1792,5 +1782,7 @@
       src="./wp-content/plugins/lazy-loading-responsive-images/js/ls.unveilhooks.min7606.js?ver=1673961767"
       id="lazysizes-unveilhooks-js"
     ></script>
+
+    <script src="./assete/functions/customjs.js"></script>
   </body>
 </html>
