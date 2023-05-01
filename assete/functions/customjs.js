@@ -15,12 +15,13 @@ counters.forEach((counter) => {
 });
 
 
-
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzrK_n8oKI6pyRlmgspA2RqVAbHL6kYn02Av9mQ-xlwwRshC8RSTqv8xavkL9koWN_mYQ/exec'
-const form = document.forms['google-sheet']
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzt215uo1sI7Uia8lcFs46GgpwzUZ23H3KHSRK3vTBKsP6OU17yhwgfD2E3nKuYcKAb/exec'
+const form = document.forms['reservationform']
 form.addEventListener('submit', e => {
   e.preventDefault()
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-    .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+    .then(response => {alert(" Reservation ")
+    form. reset()
+  })
     .catch(error => console.error('Error!', error.message))
 })
