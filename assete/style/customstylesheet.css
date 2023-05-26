@@ -16,6 +16,10 @@
     font-size: 60px;
     margin: 50px;
   }
+  .has-transparent-header section.section-hero:first-of-type .hero-content {
+    padding-top: 200px;
+    padding-bottom: 120px;
+}
   
   @media (max-width: 580px) {
     .number-counter {
