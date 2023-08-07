@@ -1677,46 +1677,120 @@
                     <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden
                       checked="checked" />
                     <div class="carousel-item">
+              
+                      <script>
+                        function toggleReadMore() {
+                          var moreContent = document.getElementById("more-content");
+                          var readMoreBtn = document.querySelector("button");
+                    
+                          if (moreContent.style.display === "none") {
+                            moreContent.style.display = "inline"; 
+                            readMoreBtn.textContent = "Read Less";
+                          } else {
+                            moreContent.style.display = "none";
+                            readMoreBtn.textContent = "Read More";
+                          }
+                        }
+                      </script>
                       <span class="quotetext use-headline-font contentboxes-content-item contentboxes-text">
-                        &#8220;Very nice restaurant with tasty and
-                        delicious food. We have taken chinese food , garlic
-                        chicken, chilli chicken, veg fried rice and schezwan
-                        rice as main course and as a starter,we have taken
-                        fried chicken and chicken sweet corn soup.
-                        &#8221;</span>
+                        &#8220;Very nice restaurant with tasty and delicious food. 
+                        <span id="more-content" style="display: none;">
+                          We have taken chinese food , garlic
+                          chicken, chilli chicken, veg fried rice and schezwan
+                          rice as main course and as a starter,we have taken
+                          fried chicken and chicken sweet corn soup.
+                          &#8221;
+                        </span>
+                        </span>
+                        <button style="color: white;" onclick="toggleReadMore()">Read More</button>
                       <div class="quoteinfo">Gargi De</div>
                     </div>
+
                     <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true"
                       hidden />
                     <div class="carousel-item">
-                      <span class="quotetext use-headline-font">&#8220;Nice restaurant with good food. Interiors
-                        are nicely done with great wooden finishing. Food
+                      <script>
+                        function toggleReadMore() {
+                          var moreContent = document.getElementById("more-content2");
+                          var readMoreBtn = document.querySelector("button");
+                    
+                          if (moreContent.style.display === "none") {
+                            moreContent.style.display = "inline"; 
+                            readMoreBtn.textContent = "Read Less";
+                          } else {
+                            moreContent.style.display = "none";
+                            readMoreBtn.textContent = "Read More";
+                          }
+                        }
+                      </script>
+                      <span class="quotetext use-headline-font">&#8220;Nice restaurant with good food. 
+                        <span id="more-content2" style="display: none;">
+                          Interiors are nicely done with great wooden finishing. Food
                         and ambience is the best amongst all restaurants
                         nearby. It is reasonably priced. Inr 1000 for 3
                         people where two nonveg dishes and breads and rice
                         were ordered. Quantity is good for the non veg
                         dishes. Full plate of chicken around rs 400 can
-                        suffice 3 adults and 1 kid. &#8221;</span>
+                        suffice 3 adults and 1 kid. &#8221;
+                      </span>
+                        </span>
+                        <button style="color: white;" onclick="toggleReadMore()">Read More</button>
                       <div class="quoteinfo">Shailesh Singh</div>
                     </div>
+
                     <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true"
                       hidden />
                     <div class="carousel-item">
+                      <script>
+                        function toggleReadMore() {
+                          var moreContent = document.getElementById("more-content3");
+                          var readMoreBtn = document.querySelector("button");
+                    
+                          if (moreContent.style.display === "none") {
+                            moreContent.style.display = "inline"; 
+                            readMoreBtn.textContent = "Read Less";
+                          } else {
+                            moreContent.style.display = "none";
+                            readMoreBtn.textContent = "Read More";
+                          }
+                        }
+                      </script>
                       <span class="quotetext use-headline-font">&#8220; Village vatika restaurant is at near Jim
-                        corbett national park Ramnager uttrakhand. Food of
-                        this restaurant is good. Restaurant is neat and
+                        corbett national park Ramnager uttrakhand. 
+                        <span id="more-content3" style="display: none;">
+                          Food of this restaurant is good. Restaurant is neat and
                         clean and on the road. &#8221;</span>
+                        </span>           
+                        <button style="color: white;" onclick="toggleReadMore()">Read More</button>           
                       <div class="quoteinfo">Subodh Kumar Rastogi</div>
                     </div>
                     <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true"
                       hidden />
                     <div class="carousel-item">
+                      <script>
+                        function toggleReadMore() {
+                          var moreContent = document.getElementById("more-content4");
+                          var readMoreBtn = document.querySelector("button");
+                    
+                          if (moreContent.style.display === "none") {
+                            moreContent.style.display = "inline"; 
+                            readMoreBtn.textContent = "Read Less";
+                          } else {
+                            moreContent.style.display = "none";
+                            readMoreBtn.textContent = "Read More";
+                          }
+                        }
+                      </script>
                       <span class="quotetext use-headline-font">&#8220; Pocket friendly restaurant ,fantastic
-                        ambience coupled with super quality and quantity of
-                        food. Clean and neat place with friendly and
+                        ambience coupled with super quality and quantity of food. 
+                      <span id="more-content4" style="display: none;">
+                        Clean and neat place with friendly and
                         courteous people around. Recommended restaurant in
                         and around amdanda gate of corbett national park.
-                        &#8221;</span>
+                        &#8221;
+                      </span>
+                      </span>                       
+                        <button style="color: white;" onclick="toggleReadMore()">Read More</button>
                       <div class="quoteinfo">Ganesh Chowdary</div>
                     </div>
                     <label for="carousel-4" class="carousel-control prev control-1">
