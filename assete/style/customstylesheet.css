@@ -22,6 +22,9 @@
 }
   .itemCointainer{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   .itemMenu{
     width: 25%;
@@ -31,6 +34,9 @@
   @media (max-width: 580px) {
     .counter-container {
       margin: 0;
+    }
+    .itemMenu{
+      width: 50%;
     }
     .counter {
       font-size: 15px;
