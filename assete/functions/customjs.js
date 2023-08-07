@@ -25,3 +25,56 @@ form.addEventListener('submit', e => {
   })
     .catch(error => console.error('Error!', error.message))
 })
+
+function toggleReadMore() {
+  let moreContent = document.getElementById("morecontent");
+  let readMoreBtn = document.getElementById("button1");
+  if (moreContent.style.display === "none") {
+    moreContent.style.display = "inline"; 
+    readMoreBtn.innerHTML = "....Read Less";
+  } else {
+    moreContent.style.display = "none";
+    readMoreBtn.innerHTML = "....Read More";
+  }
+}
+function toggleReadMore2() {
+  let moreContent = document.getElementById("morecontent2");
+  let readMoreBtn = document.getElementById("button2");
+
+
+
+  if (moreContent.style.display === "none") {
+    moreContent.style.display = "inline"; 
+    readMoreBtn.textContent = "....Read Less";
+  } else {
+    moreContent.style.display = "none";
+    readMoreBtn.textContent = "....Read More";
+  }
+}
+function toggleReadMore3() {
+  let moreContent = document.getElementById("morecontent3");
+  let readMoreBtn = document.getElementById("button3");
+
+
+  if (moreContent.style.display === "none") {
+    moreContent.style.display = "inline"; 
+    readMoreBtn.textContent = "....Read Less";
+  } else {
+    moreContent.style.display = "none";
+    readMoreBtn.textContent = "....Read More";
+  }
+}
+function toggleReadMore4() {
+  let moreContent4 = document.getElementById("morecontent4");
+  let readMoreBtn = document.getElementById("button4");
+
+
+
+  if (moreContent4.style.display === "none") {
+    moreContent4.style.display = "inline"; 
+    readMoreBtn.textContent = "....Read Less";
+  } else {
+    moreContent4.style.display = "none";
+    readMoreBtn.textContent = "....Read More";
+  }
+}
