@@ -78,3 +78,16 @@ function toggleReadMore4() {
     readMoreBtn.textContent = "....Read More";
   }
 }
+
+function toggleReadMore5() {
+  let moreContent5 = document.getElementById("morecontent5");
+  let readMoreBtn = document.getElementById("button5");
+
+  if (moreContent5.style.display === "none") {
+    moreContent5.style.display = "inline"; 
+    readMoreBtn.textContent = "....Read Less";
+  } else {
+    moreContent5.style.display = "none";
+    readMoreBtn.textContent = "....Read More";
+  }
+}
